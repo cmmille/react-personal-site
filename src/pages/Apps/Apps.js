@@ -1,5 +1,5 @@
 import Container from "../../components/layout/Container/Container";
-import styles from "./Apps.module.css";
+// import styles from "./Apps.module.css";
 
 const Apps = () => {
   return (
