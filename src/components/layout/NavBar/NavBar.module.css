@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: var(--hookers-green);
+  min-height: 70px;
+  /* z-index: 9999; */
+}
+
+.navbar :first-child {
+    justify-content: flex-end;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-weight: 600;
+    margin: 0;
+  }
+  .nav-menu a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    color: var(--alabaster);
+    transition: color 300ms;
+  }
+  .nav-menu li a:hover {
+    color: var(--indian-red);
+  }
+
+.selected {
+  text-decoration: underline !important;
+}
