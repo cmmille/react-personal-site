@@ -1,11 +1,14 @@
+import Header from "../../components/layout/Header/Header";
 import Container from "../../components/layout/Container/Container";
-// import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <Container>
-      <h1>Contact</h1>
-    </Container>
+    <>
+      <Header title="Contact" subtitle="get in touch"/>
+      <Container>
+
+      </Container>
+    </>
   );
 };
 export default Contact;

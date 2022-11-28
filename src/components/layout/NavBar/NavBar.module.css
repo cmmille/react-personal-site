@@ -35,3 +35,8 @@
 .selected {
   text-decoration: underline !important;
 }
+@media (max-width: 768px) {
+  .navbar :first-child {
+    justify-content: center;
+  }
+}

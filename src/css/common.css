@@ -7,10 +7,18 @@
   box-sizing: border-box;
   padding: 0;
 }
-html, body, #root{
+html,
+body,
+#root {
   height: 100%;
 }
-.content{
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--platinum);
+}
+.content {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -20,17 +28,7 @@ html, body, #root{
   text-align: center;
   flex: 1;
 }
-
-body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: var(--platinum);
-}
-img {
-  max-width: 100%;
-}
-/* h1,
+h1,
 h2 {
   margin-bottom: 15px;
 }
@@ -42,152 +40,15 @@ h2 {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-} */
-
-/* Header */
-.header .container {
-  height: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  padding: 0;
-}
-.header {
-  background-color: var(--charleston-green);
-}
-.header-text {
-  color: var(--alabaster);
-  flex: 1;
-  margin: auto 25px;
-}
-.header h2 {
-  color: var(--green-sheen);
-  font-size: 1.5rem;
-}
-.header h1 {
-  font-size: 4rem;
-  line-height: 1.2;
-  font-family: "Dancing Script", cursive;
-}
-.header-img {
-  background-image: url("../assets/images/header.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50vh;
-  width: 50%;
-}
-
-/* Skills */
-.skills .container {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-  justify-content: end;
-}
-.skill-box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  gap: 30px;
-  background-color: var(--brunswick-green);
-  color: white;
-  color: var(--alabaster);
-  border-radius: 12px;
-  line-height: 1.25;
-  padding: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-}
-.skill-box h2 {
-  font-size: 2rem;
-  line-height: 1.2;
-  margin-bottom: 0;
-}
-.skill-box p {
-  margin-bottom: 15px;
-}
-.skill-box hr {
-  margin-top: 5px;
-  margin-bottom: 30px;
-  border-style: solid;
-  border-color: var(--green-sheen);
-}
-.skill-image {
-  height: 115px;
-  background-color: var(--alabaster);
-  padding: 15px;
-  border-radius: 12px;
-  border: 3px solid var(--green-sheen);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-}
-.skill-box a {
-  text-decoration: none;
-  color: var(--indian-red);
-  font-weight: 600;
-  transition: color 300ms;
-}
-.skill-box a:hover {
-  color: var(--green-sheen);
-}
-
-
-/* Other pages */
-.title{
-    margin-bottom: 0rem;
-    margin-top: 1rem;
-    text-align: center;
-}
-.link-preview {
-  height: 300px;
-  width: 300px;
-  background-color: var(--alabaster);
-  padding: 15px;
-  border-radius: 12px;
-  border: 3px solid var(--green-sheen);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-  filter: brightness(0.5);
-  transition: filter 300ms, border-color 300ms;
-}
-.link-preview:hover{
-    cursor: pointer;
-    border-color: var(--indian-red);
-    filter: none;
 }
 
 /* Media Query */
 @media (max-width: 768px) {
-  /* Navbar */
-  .navbar .container {
-    justify-content: center;
-  }
-  /* Header */
-  .header .container {
-    flex-direction: column;
-    text-align: center;
-  }
-  .header-img {
-    background-image: url("../assets/images/siskin.jpg");
-    height: 35vh;
-    width: 100%;
-    background-position: center;
-  }
-  .header-text {
-    margin: 25px;
-  }
-
-  /* Skills */
-  .skill-box {
-    flex-direction: column;
-    text-align: center;
-  }
 
   /* Other */
-  .link-preview{
-      filter: none;
-      width: 250px;
-      height: 250px;
+  .link-preview {
+    filter: none;
+    width: 250px;
+    height: 250px;
   }
 }

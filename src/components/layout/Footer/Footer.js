@@ -5,7 +5,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <footer className={styles.footer}>
-      <div class={styles["social-media"]}>
+      <div className={styles["social-media"]}>
         <a
           href="https://www.facebook.com/zappingstar"
           target="_blank"

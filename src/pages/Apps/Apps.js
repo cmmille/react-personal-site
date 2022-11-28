@@ -1,11 +1,12 @@
-import Container from "../../components/layout/Container/Container";
-// import styles from "./Apps.module.css";
+import Header from "../../components/layout/Header/Header";
+import AppList from "./AppList/AppList";
 
 const Apps = () => {
   return (
-    <Container>
-      <h1>Apps</h1>
-    </Container>
+    <>
+      <Header title="Portfolio" subtitle="a selection of projects build by me"/>
+      <AppList />
+    </>
   );
 };
 export default Apps;
