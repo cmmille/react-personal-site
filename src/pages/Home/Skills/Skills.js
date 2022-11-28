@@ -14,10 +14,10 @@ const Skills = () => {
       <Container>
         <Skill title="Plant Biology" icon={plantIcon}>
           <p>
-            I am interested in the evolutionary relationships in plants. My M.S.
-            work studied the reproductive barriers in wild tomato species. I am
-            experienced with a wide array of molecular techniques including
-            RNAseq, Western Blots, Flow Cytometry, and more.
+            I am interested in the evolutionary relationships in plants. For my
+            M.S. thesis, I studied the reproductive barriers in wild tomato
+            species. I am experienced with a wide array of molecular techniques
+            including RNAseq, Western Blots, Flow Cytometry, and more.
           </p>
         </Skill>
         <Skill title="Software Engineering" icon={cpuIcon}>
@@ -27,7 +27,7 @@ const Skills = () => {
             Python, R, and the Unix command line to process data and run
             statistics. At Colorado State University, I took on the role of
             frontend developer for my lab's MS Access Database. I recently
-            earned my Certificate of Computer Programming and completed a Wed
+            earned my Certificate of Computer Programming and completed a Web
             Development Bootcamp online. I am currently working as a Software
             Engineer for the Providence Molecular Genomics Lab.
           </p>

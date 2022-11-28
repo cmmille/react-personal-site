@@ -26,7 +26,6 @@ body {
 
 .page-container {
   text-align: center;
-  flex: 1;
 }
 h1,
 h2 {
@@ -40,15 +39,4 @@ h2 {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-}
-
-/* Media Query */
-@media (max-width: 768px) {
-
-  /* Other */
-  .link-preview {
-    filter: none;
-    width: 250px;
-    height: 250px;
-  }
 }

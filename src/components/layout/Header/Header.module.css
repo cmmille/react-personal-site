@@ -13,13 +13,13 @@
 }
 
 .image-header > div {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
   padding: 0;
 }
 
 .image {
-  width: 100%;
+  width: 50%;
   height: 50vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,7 +47,6 @@
 
 @media (max-width: 768px) {
   .image-header > div{
-    display: flex;
     flex-direction: column-reverse;
     width: 100%;
   }
@@ -57,5 +56,6 @@
   }
   .image-header .image {
     height: 35vh;
+    width: 100%;
   }
 }

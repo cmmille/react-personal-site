@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 import styles from "./Header.module.css";
 
 const Header = (props) => {
-  const isMobile = useMediaQuery({ query: "(max-width: 768px" });
+  const isMobile = useMediaQuery({ maxWidth: 768 });
   const image = isMobile ? props.mobileImage : props.desktopImage;
   return (
     <div className={image ? styles["image-header"] : styles["text-header"]}>
